@@ -1,0 +1,8 @@
+# Ignore ASP.Net Core bin and obj folders
+bin/
+obj/
+.vs/
+# Ignore Android Studio build files
+/app/build/
+.gradle/
+.idea/
