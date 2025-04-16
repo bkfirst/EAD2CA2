@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brand\\Documents\\NEW_project_with_nathan\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\FamousQuotesAPI.csproj": {}
+    "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\FamousQuotesAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brand\\Documents\\NEW_project_with_nathan\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\FamousQuotesAPI.csproj": {
+    "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\FamousQuotesAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brand\\Documents\\NEW_project_with_nathan\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\FamousQuotesAPI.csproj",
+        "projectUniqueName": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\FamousQuotesAPI.csproj",
         "projectName": "FamousQuotesAPI",
-        "projectPath": "C:\\Users\\brand\\Documents\\NEW_project_with_nathan\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\FamousQuotesAPI.csproj",
-        "packagesPath": "C:\\Users\\brand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brand\\Documents\\NEW_project_with_nathan\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\obj\\",
+        "projectPath": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\FamousQuotesAPI.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\brand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
