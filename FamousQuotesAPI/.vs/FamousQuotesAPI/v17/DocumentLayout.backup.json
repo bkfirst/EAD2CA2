@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "FamousQuotesAPI\\Program.cs",
               "ToolTip": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\Program.cs",
               "RelativeToolTip": "FamousQuotesAPI\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwDUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T15:27:51.487Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "FamousQuotesAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-20T15:27:02.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T15:27:02.986Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "FamousQuotesAPI\\FamousQuotesAPI.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-04-16T13:25:12.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T13:25:12.656Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "FamousQuotesAPI\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T15:26:50.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T15:26:50.104Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "FamousQuotesAPI\\Models\\SavedQuote.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T15:25:58.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T15:25:58.897Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "FamousQuotesAPI\\Models\\Quote.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T15:25:25.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T15:25:25.483Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "FamousQuotesAPI\\Controllers\\QuotesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T15:52:56.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T15:52:56.08Z"
             },
             {
               "$type": "Document",

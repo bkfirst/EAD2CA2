@@ -13,10 +13,11 @@ import {
   Container,
   Divider,
   Fade,
-  Zoom
+  Zoom,
+  IconButton
 } from '@mui/material';
 import axios from 'axios';
-import { Add as AddIcon, FormatQuote as QuoteIcon } from '@mui/icons-material';
+import { Add as AddIcon, FormatQuote as QuoteIcon, Delete as DeleteIcon } from '@mui/icons-material';
 
 interface Quote {
   id: number;
@@ -62,6 +63,17 @@ const QuoteList = () => {
       fetchQuotes();
     } catch (err) {
       setError('Failed to add quote. Please try again.');
+    }
+  };
+
+  const handleDelete = async (id: number) => {
+    try {
+      setError('');
+      await axios.delete(`${API_URL}/${id}`);
+      setSuccess('Quote deleted successfully!');
+      fetchQuotes();
+    } catch (err) {
+      setError('Failed to delete quote. Please try again.');
     }
   };
 
@@ -203,11 +215,26 @@ const QuoteList = () => {
                 height: '100%',
                 transition: 'all 0.3s ease',
                 background: 'white',
+                position: 'relative',
                 '&:hover': {
                   transform: 'translateY(-8px)',
                   boxShadow: '0 12px 20px rgba(0,0,0,0.1)',
                 }
               }}>
+                <IconButton
+                  onClick={() => handleDelete(quote.id)}
+                  sx={{
+                    position: 'absolute',
+                    right: 8,
+                    top: 8,
+                    color: 'error.main',
+                    '&:hover': {
+                      backgroundColor: 'error.light',
+                    }
+                  }}
+                >
+                  <DeleteIcon />
+                </IconButton>
                 <CardContent>
                   <Box sx={{ display: 'flex', alignItems: 'flex-start', mb: 2 }}>
                     <QuoteIcon sx={{ color: 'primary.main', mr: 1, fontSize: '2.5rem' }} />
