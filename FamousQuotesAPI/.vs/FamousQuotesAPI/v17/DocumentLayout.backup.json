@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4BA68494-7D82-4881-A5A7-1531ED42FCBA}|FamousQuotesAPI\\FamousQuotesAPI.csproj|c:\\users\\natha\\ead2ca2\\famousquotesapi\\famousquotesapi\\models\\quote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA68494-7D82-4881-A5A7-1531ED42FCBA}|FamousQuotesAPI\\FamousQuotesAPI.csproj|solutionrelative:famousquotesapi\\models\\quote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA68494-7D82-4881-A5A7-1531ED42FCBA}|FamousQuotesAPI\\FamousQuotesAPI.csproj|c:\\users\\natha\\ead2ca2\\famousquotesapi\\famousquotesapi\\models\\savedquote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA68494-7D82-4881-A5A7-1531ED42FCBA}|FamousQuotesAPI\\FamousQuotesAPI.csproj|solutionrelative:famousquotesapi\\models\\savedquote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4BA68494-7D82-4881-A5A7-1531ED42FCBA}|FamousQuotesAPI\\FamousQuotesAPI.csproj|c:\\users\\natha\\ead2ca2\\famousquotesapi\\famousquotesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BA68494-7D82-4881-A5A7-1531ED42FCBA}|FamousQuotesAPI\\FamousQuotesAPI.csproj|solutionrelative:famousquotesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4BA68494-7D82-4881-A5A7-1531ED42FCBA}|FamousQuotesAPI\\FamousQuotesAPI.csproj|c:\\users\\natha\\ead2ca2\\famousquotesapi\\famousquotesapi\\famousquotesapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{4BA68494-7D82-4881-A5A7-1531ED42FCBA}|FamousQuotesAPI\\FamousQuotesAPI.csproj|solutionrelative:famousquotesapi\\famousquotesapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BA68494-7D82-4881-A5A7-1531ED42FCBA}|FamousQuotesAPI\\FamousQuotesAPI.csproj|c:\\users\\natha\\ead2ca2\\famousquotesapi\\famousquotesapi\\models\\quote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BA68494-7D82-4881-A5A7-1531ED42FCBA}|FamousQuotesAPI\\FamousQuotesAPI.csproj|solutionrelative:famousquotesapi\\models\\quote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BA68494-7D82-4881-A5A7-1531ED42FCBA}|FamousQuotesAPI\\FamousQuotesAPI.csproj|c:\\users\\natha\\ead2ca2\\famousquotesapi\\famousquotesapi\\models\\savedquote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BA68494-7D82-4881-A5A7-1531ED42FCBA}|FamousQuotesAPI\\FamousQuotesAPI.csproj|solutionrelative:famousquotesapi\\models\\savedquote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BA68494-7D82-4881-A5A7-1531ED42FCBA}|FamousQuotesAPI\\FamousQuotesAPI.csproj|c:\\users\\natha\\ead2ca2\\famousquotesapi\\famousquotesapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,45 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\Program.cs",
-              "RelativeDocumentMoniker": "FamousQuotesAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\Program.cs",
-              "RelativeToolTip": "FamousQuotesAPI\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T15:27:51.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "FamousQuotesAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\appsettings.json",
-              "RelativeToolTip": "FamousQuotesAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-20T15:27:02.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FamousQuotesAPI.http",
-              "DocumentMoniker": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\FamousQuotesAPI.http",
-              "RelativeDocumentMoniker": "FamousQuotesAPI\\FamousQuotesAPI.http",
-              "ToolTip": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\FamousQuotesAPI.http",
-              "RelativeToolTip": "FamousQuotesAPI\\FamousQuotesAPI.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-04-16T13:25:12.656Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -95,19 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SavedQuote.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\Models\\SavedQuote.cs",
-              "RelativeDocumentMoniker": "FamousQuotesAPI\\Models\\SavedQuote.cs",
-              "ToolTip": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\Models\\SavedQuote.cs",
-              "RelativeToolTip": "FamousQuotesAPI\\Models\\SavedQuote.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T15:25:58.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Quote.cs",
               "DocumentMoniker": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\Models\\Quote.cs",
               "RelativeDocumentMoniker": "FamousQuotesAPI\\Models\\Quote.cs",
@@ -115,7 +66,58 @@
               "RelativeToolTip": "FamousQuotesAPI\\Models\\Quote.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T15:25:25.483Z"
+              "WhenOpened": "2025-03-20T15:25:25.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FamousQuotesAPI.http",
+              "DocumentMoniker": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\FamousQuotesAPI.http",
+              "RelativeDocumentMoniker": "FamousQuotesAPI\\FamousQuotesAPI.http",
+              "ToolTip": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\FamousQuotesAPI.http",
+              "RelativeToolTip": "FamousQuotesAPI\\FamousQuotesAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-04-16T13:25:12.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\Program.cs",
+              "RelativeDocumentMoniker": "FamousQuotesAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\Program.cs",
+              "RelativeToolTip": "FamousQuotesAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:27:51.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SavedQuote.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\Models\\SavedQuote.cs",
+              "RelativeDocumentMoniker": "FamousQuotesAPI\\Models\\SavedQuote.cs",
+              "ToolTip": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\Models\\SavedQuote.cs",
+              "RelativeToolTip": "FamousQuotesAPI\\Models\\SavedQuote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:25:58.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "FamousQuotesAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\natha\\EAD2CA2\\FamousQuotesAPI\\FamousQuotesAPI\\appsettings.json",
+              "RelativeToolTip": "FamousQuotesAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-20T15:27:02.986Z"
             },
             {
               "$type": "Document",
