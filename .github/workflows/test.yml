@@ -7,7 +7,8 @@ on:
     branches: [ main ]
 
 jobs:
-  test:
+  test-ui:
+    name: Test UI
     runs-on: ubuntu-latest
 
     steps:
@@ -19,8 +20,32 @@ jobs:
         node-version: '20'
         cache: 'npm'
     
-    - name: Install dependencies
+    - name: Install UI dependencies
+      working-directory: ./ui
       run: npm ci
     
-    - name: Run tests
-      run: npm test 
+    - name: Run UI tests
+      working-directory: ./ui
+      run: npm test
+
+  test-api:
+    name: Test API
+    runs-on: ubuntu-latest
+    needs: test-ui
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+    
+    - name: Install API dependencies
+      working-directory: ./api
+      run: npm ci
+    
+    - name: Run API tests
+      working-directory: ./api
+      run: npm test
