@@ -1,0 +1,20 @@
+{
+  "app": {
+    "title": "Famous Quotes",
+    "addNewQuote": "Add New Quote",
+    "quoteText": "Quote Text",
+    "author": "Author",
+    "add": "Add",
+    "delete": "Delete",
+    "loading": "Loading...",
+    "error": {
+      "fetch": "Failed to fetch quotes. Please make sure the API is running.",
+      "add": "Failed to add quote. Please try again.",
+      "delete": "Failed to delete quote. Please try again."
+    },
+    "success": {
+      "add": "Quote added successfully!",
+      "delete": "Quote deleted successfully!"
+    }
+  }
+} 

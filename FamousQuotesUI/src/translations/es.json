@@ -1,0 +1,20 @@
+{
+  "app": {
+    "title": "Citas Famosas",
+    "addNewQuote": "Añadir Nueva Cita",
+    "quoteText": "Texto de la Cita",
+    "author": "Autor",
+    "add": "Añadir",
+    "delete": "Eliminar",
+    "loading": "Cargando...",
+    "error": {
+      "fetch": "Error al cargar las citas. Por favor, asegúrese de que la API está funcionando.",
+      "add": "Error al añadir la cita. Por favor, inténtelo de nuevo.",
+      "delete": "Error al eliminar la cita. Por favor, inténtelo de nuevo."
+    },
+    "success": {
+      "add": "¡Cita añadida con éxito!",
+      "delete": "¡Cita eliminada con éxito!"
+    }
+  }
+} 

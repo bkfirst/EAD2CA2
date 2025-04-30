@@ -18,6 +18,7 @@ import {
 } from '@mui/material';
 import axios from 'axios';
 import { Add as AddIcon, FormatQuote as QuoteIcon, Delete as DeleteIcon } from '@mui/icons-material';
+import { useTranslation } from 'react-i18next';
 
 interface Quote {
   id: number;
@@ -27,6 +28,7 @@ interface Quote {
 }
 
 const QuoteList = () => {
+  const { t } = useTranslation();
   const [quotes, setQuotes] = useState<Quote[]>([]);
   const [loading, setLoading] = useState(true);
   const [newQuote, setNewQuote] = useState({ content: '', author: '' });
@@ -46,7 +48,7 @@ const QuoteList = () => {
       const response = await axios.get(API_URL);
       setQuotes(response.data);
     } catch (err) {
-      setError('Failed to fetch quotes. Please make sure the API is running.');
+      setError(t('app.error.fetch'));
     } finally {
       setLoading(false);
     }
@@ -59,10 +61,10 @@ const QuoteList = () => {
       setSuccess('');
       await axios.post(API_URL, newQuote);
       setNewQuote({ content: '', author: '' });
-      setSuccess('Quote added successfully!');
+      setSuccess(t('app.success.add'));
       fetchQuotes();
     } catch (err) {
-      setError('Failed to add quote. Please try again.');
+      setError(t('app.error.add'));
     }
   };
 
@@ -70,10 +72,10 @@ const QuoteList = () => {
     try {
       setError('');
       await axios.delete(`${API_URL}/${id}`);
-      setSuccess('Quote deleted successfully!');
+      setSuccess(t('app.success.delete'));
       fetchQuotes();
     } catch (err) {
-      setError('Failed to delete quote. Please try again.');
+      setError(t('app.error.delete'));
     }
   };
 
@@ -100,7 +102,7 @@ const QuoteList = () => {
             textShadow: '2px 2px 4px rgba(0,0,0,0.1)'
           }}
         >
-          Famous Quotes
+          {t('app.title')}
         </Typography>
       </Fade>
 
@@ -127,14 +129,14 @@ const QuoteList = () => {
           }}
         >
           <Typography variant="h5" gutterBottom sx={{ mb: 2, color: 'rgba(0, 0, 0, 0.87)' }}>
-            Add New Quote
+            {t('app.addNewQuote')}
           </Typography>
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} role="form">
             <Grid container spacing={3}>
               <Grid item xs={12} md={5}>
                 <TextField
                   fullWidth
-                  label="Quote Text"
+                  label={t('app.quoteText')}
                   value={newQuote.content}
                   onChange={(e) => setNewQuote({ ...newQuote, content: e.target.value })}
                   required
@@ -160,7 +162,7 @@ const QuoteList = () => {
               <Grid item xs={12} md={5}>
                 <TextField
                   fullWidth
-                  label="Author"
+                  label={t('app.author')}
                   value={newQuote.author}
                   onChange={(e) => setNewQuote({ ...newQuote, author: e.target.value })}
                   required
@@ -197,7 +199,7 @@ const QuoteList = () => {
                     }
                   }}
                 >
-                  Add
+                  {t('app.add')}
                 </Button>
               </Grid>
             </Grid>
