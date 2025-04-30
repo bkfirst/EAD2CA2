@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    
+    - name: Install API Dependencies
+      working-directory: ./FamousQuotesAPI
+      run: npm install
+    
+    - name: Build API
+      working-directory: ./FamousQuotesAPI
+      run: npm run build
+    
+    - name: Install UI Dependencies
+      working-directory: ./FamousQuotesUI
+      run: npm install
+    
+    - name: Build UI
+      working-directory: ./FamousQuotesUI
+      run: npm run build 
