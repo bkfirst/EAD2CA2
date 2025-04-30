@@ -1,4 +1,4 @@
-name: CI
+name: UI Tests
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -22,18 +22,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     
-    - name: Install API Dependencies
-      working-directory: ./FamousQuotesAPI
-      run: npm install
-    
-    - name: Build API
-      working-directory: ./FamousQuotesAPI
-      run: npm run build
-    
-    - name: Install UI Dependencies
+    - name: Install Dependencies
       working-directory: ./FamousQuotesUI
       run: npm install
     
-    - name: Build UI
+    - name: Run Tests
       working-directory: ./FamousQuotesUI
-      run: npm run build 
+      run: npm test 
